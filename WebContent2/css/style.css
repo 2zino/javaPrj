@@ -1,0 +1,190 @@
+@CHARSET "UTF-8";
+
+.hidden {
+	display: none;
+}
+
+.button {
+	display: inline-block;
+	border: none;
+	border-left: 1px solid #8cba34;
+	text-indent: -9999px;
+	vertical-align: middle;
+}
+
+/*-----------menu--------------------------------*/
+#main-menu {
+	display: inline-block;
+	float: left;
+}
+
+#main-menu>ul {
+	
+	overflow: auto;
+}
+
+#main-menu>ul>li {
+	float: left;
+	padding-left: 24px;
+	background: url("/JSPPrj/images/bg-main-menu-vsp.png") no-repeat 13px
+		center;
+}
+
+#main-menu>ul>li:first-child {
+	padding-left: 0px;
+	background: none;
+}
+
+#main-menu>ul>li>a {
+	font-family: "맑은고딕", "고딕", sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+}
+
+#main-menu>ul>li>a:hover {
+	color: #ff6a00;
+}
+/*-----------member-menu-------------------------------*/
+#member-menu>ul {
+	
+	display: inline-block;
+	overflow: auto;
+	float: left;
+	font: 0px;
+}
+
+#member-menu>ul>li {
+	float: left;
+	padding-left: 9px;
+	background: url("/JSPPrj/images/bg-joinus-menu-vsp.png") no-repeat 4px
+		center;
+}
+
+#member-menu>ul>li>a:hover {
+	color: #ff6a00;
+}
+
+#member-menu>ul>li:first-child {
+	padding-left: 0px;
+	background: none;
+}
+
+#member-menu>ul>li>a {
+	font-family: "맑은고딕", "고딕", sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #979797;
+	text-decoration: none;
+}
+/*-----------lecture-search--------------------------------*/
+#lecture-search {
+	width: 308px;
+	height: 25px;
+	border: 5px solid #8cba34;
+	font-size: 0px;
+	display: inline-block;
+	float: left;
+}
+
+#lecture-search fieldset label {
+	font-size: 11px;
+	font-weight: bold;
+	font-family: "맑은고딕", "고딕", sans-serif;
+	height: 25px;
+	width: 55px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 25px;
+}
+
+#lecture-search fieldset>input[type="text"] {
+	height: 25px;
+	width: calc(100% - 86px);
+	border: none;
+	vertical-align: middle;
+	font-size: 16px;
+	text-indent: 5px;
+}
+
+#lecture-search fieldset>input[type="submit"] {
+	width: 31px;
+	height: 25px;
+	border: none;
+	border-left: 1px solid #8cba34;
+	background: blue;
+	background: url("../images/btn-zoom.png") no-repeat center;
+	text-indent: -999px;
+	vertical-align: middle;
+	float: right;
+}
+
+/*-----------customer-menu--------------------------------*/
+#customer-menu {
+	/* border: 1px solid red; */
+	display: inline-block;
+	font-size: 0px;
+}
+
+#customer-menu li {
+	display: inline-block;
+	float: left;
+	width: 72px;
+}
+
+#customer-menu li:FIRST-CHILD a {
+	background: url("../images/txt-mypage.png") no-repeat center;
+	width: 72px;
+	height: 17px;
+}
+
+#customer-menu li:LAST-CHILD a {
+	background: url("../images/txt-customer.png") no-repeat center;
+	width: 72px;
+	height: 17px;
+}
+/*-----------aside-menu-style-------------------------*/
+#aside{
+	
+	height: 20px;
+}
+
+#aside>h1{
+
+	font-size: 23px;
+	font-weight: bold;
+	
+}
+
+
+#aside-menu li{
+	background: url("../images/bg-aside-menu-hsp.png") no-repeat center bottom ;
+	height: 26px; 	
+	
+}
+
+#aside-menu li a{
+	font-family: "맑은고딕", "고딕", sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #808080;
+	padding-left: 26px;
+	text-decoration: none;
+	
+	
+}
+#aside-menu li a:hover{
+	
+	background: url("../images/icon-current.png") no-repeat 9px center;
+}
+#recommend{
+	height: 20px;
+}
+#recommend >h1 {
+	font-size: 12px;
+	font-weight: bold;
+	padding-left: 26px;
+	background: url("../images/icon-recommend.png") no-repeat left center;
+}
